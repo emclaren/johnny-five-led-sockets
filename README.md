@@ -2,6 +2,17 @@
 
 This is a very small project for demo purposes using sockets and johnny five.
 
+Turns on an LED on pin 13 of arduino running standard firmata. 
+
+Full set up instructions can be found here: https://www.hackster.io/geradrum/johnny-five-and-socket-io-led-web-switch-fb85cf
+
+
+* Note: I had trouble running the serialport package install. Running this code fixed it : * 
+
+`sudo npm install serialport --unsafe-perm --build-from-source`
+`npm rebuild serialport --build-from-source `
+
+
 
 <h2>Install</h2>
 
@@ -27,13 +38,13 @@ Build the project to the /dist folder (html/css/js).
 npm run build
 ```
 
-Starts a local server for this project and runs the arduino.js file
+Starts a local server for this project and runs the arduino.js file (localhost:4000)
 
 ```
 npm run arduino:dev
 ```
 
-Runs the arduino.js file without starting a local server, instead, the script connects to the production server.
+Runs the arduino.js file without starting a local server, instead, the script connects to the production server (in this case, https://damp-stream-42889.herokuapp.com/ )
 
 ```
 npm run arduino
