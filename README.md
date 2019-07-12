@@ -26,13 +26,14 @@ npm run dev
 ```
 
 
-*Note: I had trouble running the serialport package using npm install. Running this code solved the issue:* 
+*Note: I had trouble running the serialport package using npm install. Running this code found at  https://serialport.io/docs/guide-installation solved the issue:* 
 
 `sudo npm install serialport --unsafe-perm --build-from-source
 `
 
 `npm rebuild serialport --build-from-source
 `
+
 
 
 Build the project to the /dist folder (html/css/js).
