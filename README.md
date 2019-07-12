@@ -7,10 +7,11 @@ Full set up instructions can be found here: https://www.hackster.io/geradrum/joh
 
 *Note: I had trouble running the serialport package install. Running this code solved the issue* 
 
-```sudo npm install serialport --unsafe-perm --build-from-source
-```
-```npm rebuild serialport --build-from-source
-```
+`sudo npm install serialport --unsafe-perm --build-from-source
+`
+
+`npm rebuild serialport --build-from-source
+`
 
 
 
