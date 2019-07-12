@@ -5,7 +5,7 @@ This is a very small project for demo purposes using sockets and johnny five. Tu
 Full set up instructions can be found here: https://www.hackster.io/geradrum/johnny-five-and-socket-io-led-web-switch-fb85cf
 
 
-*Note: I had trouble running the serialport package install. Running this code solved the issue* 
+*Note: I had trouble running the serialport package using npm install. Running this code solved the issue:* 
 
 `sudo npm install serialport --unsafe-perm --build-from-source
 `
