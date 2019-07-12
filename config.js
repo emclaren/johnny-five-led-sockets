@@ -5,7 +5,7 @@ const development = {
 };
 
 const production = {
-  host: 'https://arduino-sockets.herokuapp.com', // Replace
+  host: 'https://damp-stream-42889.herokuapp.com', // Replace
   namespace: 'arduino' // For socket.io
 };
 
