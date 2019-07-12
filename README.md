@@ -5,14 +5,6 @@ This is a very small project for demo purposes using sockets and johnny five. Tu
 Full set up instructions can be found here: https://www.hackster.io/geradrum/johnny-five-and-socket-io-led-web-switch-fb85cf
 
 
-*Note: I had trouble running the serialport package using npm install. Running this code solved the issue:* 
-
-`sudo npm install serialport --unsafe-perm --build-from-source
-`
-
-`npm rebuild serialport --build-from-source
-`
-
 
 
 <h2>Install</h2>
@@ -32,6 +24,16 @@ Starts a local server for this project.
 ```
 npm run dev
 ```
+
+
+*Note: I had trouble running the serialport package using npm install. Running this code solved the issue:* 
+
+`sudo npm install serialport --unsafe-perm --build-from-source
+`
+
+`npm rebuild serialport --build-from-source
+`
+
 
 Build the project to the /dist folder (html/css/js).
 
