@@ -7,7 +7,7 @@ Turns on an LED on pin 13 of arduino running standard firmata.
 Full set up instructions can be found here: https://www.hackster.io/geradrum/johnny-five-and-socket-io-led-web-switch-fb85cf
 
 
-* Note: I had trouble running the serialport package install. Running this code fixed it : * 
+*Note: I had trouble running the serialport package install. Running this code fixed it :* 
 
 `sudo npm install serialport --unsafe-perm --build-from-source`
 `npm rebuild serialport --build-from-source `
